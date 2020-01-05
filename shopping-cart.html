@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Shopping Cart</title>
+    <!-- Bootstrap font-aweasome css -->
+    <link href="font-awesome/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrapen.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/refineslide.css">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+</head>
+<body>
+<!--===========================================================================-->
+
+<div class="header">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-xs-12">
+                <div class="col-sm-3 col-xs-6">
+                    <div class="logo">
+                        <a href=""><img src="images/logo.png" alt=""></a>
+                    </div>
+                </div><!--col-sm-3-->
+
+                <div class="col-sm-6 col-xs-12">
+                    <div class="main-menu">
+                        <ul>
+                            <li><a href="">Payment Cards</a></li>
+                            <li><a href="">Gift Cards</a></li>
+                            <li><a href="">Game Cards</a></li>
+                        </ul>
+                    </div><!--main-menu-->
+                </div><!--col-sm-6-->
+
+                <div class="col-sm-3 col-xs-12">
+                    <div class="shopping-cart">
+                        <div class="col-sm-4 col-xs-12">
+                            <i class="fas fa-shopping-cart"></i>
+                        </div><!--col-sm-6-->
+
+                        <div class="col-sm-8 col-xs-12">
+                            <div class="cart-details">
+                                <h4>shopping cart</h4>
+                                <p>00.00  TND</p>
+                            </div>
+                        </div>
+                    </div><!--shopping-cart-->
+                </div>
+
+                <div class="hidden-xx" onclick="openNav()">
+                    <i class="fas fa-bars"></i>
+                </div>
+
+
+
+                <div id="myNav" class="overlay">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <div class="overlay-mob">
+                        <a href=""><img src="images/logo.png" alt=""></a>
+                        <div class="shopping-cart">
+                            <div class="col-sm-4 col-xs-12">
+                                <i class="fas fa-shopping-cart"></i>
+                            </div><!--col-sm-6-->
+
+                            <div class="col-sm-8 col-xs-12">
+                                <div class="cart-details">
+                                    <h4>shopping cart</h4>
+                                    <p>00.00  TND</p>
+                                </div>
+                            </div>
+                        </div><!--shopping-cart-->
+
+                        <ul>
+                            <li><a href="">Payment Cards</a></li>
+                            <li><a href="">Gift Cards</a></li>
+                            <li><a href="">Game Cards</a></li>
+                        </ul>
+
+                    </div><!--overlay-content-->
+                </div><!--overlay-->
+
+
+            </div>
+        </div><!--row-->
+    </div><!--container-->
+</div><!--header-->
+
+<!--===========================================================================-->
+
+    <section class="stages-payment-tabs">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-sm-12 col-xs-12">
+                    <div class="the-tabs">
+                        <ul>
+                            <li class="active"><a data-toggle="tab" href="#pay-1"> <span> 1</span> shopping cart  </a></li>
+                            <li><a data-toggle="tab" href="#pay-2"><span> 2</span> Deleivery </a></li>
+                            <li><a data-toggle="tab" href="#pay-3"><span> 3</span> checkout </a></li>
+                        </ul>
+                    </div><!--the-tabs-->
+                </div><!--col-sm-12-->
+            </div><!--row-->
+        </div>
+    </section>
+
+
+
+
+
+<section class="stages-payment-content">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-xs-12">
+                <div class="tab-content">
+
+
+                    <div id="pay-1" class="tab-pane fade in active">
+                        <div class="shopping-cart">
+                            <div class="col-sm-6 col-xs-12">
+                                <div class="cart-name">
+                                    <h3>Buy CASHlib Voucher</h3>
+                                    <p>Code instantly delivered by email</p>
+                                </div>
+                            </div><!--col-sm-6-->
+
+                            <div class="col-sm-6 col-xs-12">
+                                <div class="cart-button">
+                                    <a href="">Continue Shopping</a>
+                                    <a href="">CheckNow</a>
+
+                                </div>
+                            </div><!--col-sm-6-->
+
+                            <hr>
+
+
+                            <div class="col-sm-4 col-xs-12">
+                                <div class="the-card">
+                                    <div class="the-pic">
+                                        <img src="images/pay-3.png" alt="">
+                                    </div><!--the-pic-->
+                                    <div class="content">
+                                        <h3>Ticket Premium  10  TND </h3>
+                                        <ul>
+                                            <li> <i class="fas fa-envelope"> </i> delivery By email </li>
+                                            <li> <i class="fas fa-receipt"> </i> Redeemable in Europe </li>
+                                        </ul>
+                                    </div><!--content-->
+                                </div><!--the-card-->
+                            </div>
+
+                            <div class="col-sm-4 col-xs-12">
+                                <div class="counter">
+                                    <button class="p-qty-btn-m">-</button>
+                                    <input type="text" id="input-quantity" value="1">
+                                    <button class="p-qty-btn-p">+</button>
+                                </div><!--counter-->
+                            </div>
+
+                            <div class="col-sm-4 col-xs-12">
+                                <div class="checkout">
+                                    <ul>
+                                        <li> Price  <span> 5.00 TND </span> </li>
+                                        <li> Service Cost  <span> 2.00 TND </span> </li>
+
+                                    </ul>
+                                </div><!--checkout-->
+                            </div>
+                            <hr>
+
+                            <div class="total">
+                                <h3> Total <span> 7.00 TND</span> </h3>
+                                <a href="">CheckNow</a>
+                            </div>
+
+
+                        </div><!--shopping-cart-->
+                    </div><!--home-->
+
+                    <div id="pay-2" class="tab-pane fade in ">
+
+
+                        <div class="delivery">
+                            <div class="col-sm-12 col-xs-12">
+                                <div class="cart-name">
+                                    <h3>Buy CASHlib Voucher</h3>
+                                    <p>Code instantly delivered by email</p>
+                                </div>
+                            </div><!--col-sm-6-->
+
+                            <hr>
+
+                            <div class="col-sm-6 col-xs-12">
+                                <div class="delivery-mail">
+                                    <h4><i class="fas fa-envelope"></i> Send my code(s) by email</h4>
+                                    <form action="">
+                                        <label>Email Address</label>
+                                        <input type="text" placeholder="Email Address">
+                                        <span>You order will be delivered to this email address.</span>
+                                        <button>Check Now</button>
+                                    </form>
+                               
+                                </div><!--delivery-mail-->
+                            </div><!--col-sm-6-->
+
+                            <div class="col-sm-6 col-xs-12">
+                                <div class="delivery-cash-head">
+                                    <h3>Shopping Cart <a href="">Change</a> </h3>
+                                </div><!--delivery-cash-->
+                                <div class="delivery-cash">
+                                   <h5> 1x CASHlib Voucher 5 TND <span> 5.50 TND </span></h5>
+                                    <p>Subtotal <span> 5 TND </span></p>
+                                    <p>Total <span> 10.50 TND </span></p>
+                                </div><!--delivery-cash-->
+                                <div class="delivery-payment">
+                                    <h4>Payment Method</h4>
+                                    <ul>
+                                        <li><img src="images/payment-1.png" alt=""></li>
+                                        <li><img src="images/payment-2.png" alt=""></li>
+                                        <li><img src="images/payment-3.png" alt=""></li>
+                                        <li><img src="images/payment-1.png" alt=""></li>
+                                        <li><img src="images/payment-2.png" alt=""></li>
+                                        <li><img src="images/payment-3.png" alt=""></li>
+                                        <li><img src="images/payment-1.png" alt=""></li>
+                                        <li><img src="images/payment-2.png" alt=""></li>
+                                        <li><img src="images/payment-1.png" alt=""></li>
+                                        <li><img src="images/payment-2.png" alt=""></li>
+                                        <li><img src="images/payment-3.png" alt=""></li>
+                                    </ul>
+
+                                </div>
+
+                            </div><!--col-sm-6-->
+                        </div><!--shopping-cart-->
+                    </div><!--home-->
+
+                    <div id="pay-3" class="tab-pane fade in   ">
+
+
+                        <div class="checkout">
+                            <div class="col-sm-12 col-xs-12">
+                                <div class="cart-name">
+                                    <h3>Buy CASHlib Voucher</h3>
+                                    <p>Code instantly delivered by email</p>
+                                </div>
+                            </div><!--col-sm-6-->
+                            <hr>
+                            <div class="col-sm-6 col-xs-12">
+                                <div class="checkout-method">
+                                    <form action="">
+                                        <select>
+                                            <option value="">Choose a Payment Method</option>
+                                            <option value="">Paypal</option>
+                                            <option value="">SMS Payment (Boku)</option>
+                                            <option value="">Phone Payment</option>
+                                            <option value="">Skrill</option>
+                                        </select>
+                                        <p> 5 TND + 2.4%</p>
+                                        <button>CheckNow</button>
+                                    </form>
+
+                                </div>
+                            </div><!--col-sm-6-->
+
+                            <div class="col-sm-6 col-xs-12">
+                                <div class="delivery-cash-head">
+                                    <h3>Shopping Cart <a href="">Change</a> </h3>
+                                </div><!--delivery-cash-->
+                                <div class="delivery-cash">
+                                    <h5> 1x CASHlib Voucher 5 TND <span> 5.50 TND </span></h5>
+                                    <p>Subtotal <span> 5 TND </span></p>
+                                    <p>Total <span> 10.50 TND </span></p>
+                                </div><!--delivery-cash-->
+                                <div class="delivery-digital">
+                                    <h4>Digital delivery to <a href="">Change</a> </h4>
+                                    <div class="email">
+                                        <h4><i class="fas fa-envelope"></i> elsayed@gmail.com </h4>
+                                        <p>You order will be delivered to this
+                                            email address.</p>
+                                    </div>
+
+                                </div>
+
+                            </div><!--col-sm-6-->
+
+
+                        </div><!--shopping-cart-->
+
+
+
+
+
+
+
+
+                    </div><!--home-->
+
+                </div><!--tab-content-->
+            </div><!--col-sm-12-->
+
+        </div><!--row-->
+    </div>
+</section>
+
+
+
+
+
+
+
+<!--============================================================================-->
+
+<div class="contact-us">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6 col-xs-12">
+                <h2> <i class="fas fa-question-circle"></i> How Can We Help You ? </h2>
+            </div><!--col-sm-6-->
+
+            <div class="col-sm-6 col-xs-12">
+                <div class="col-sm-6 col-xs-12">
+                    <div class="envelope">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                </div><!--col-sm-6-->
+                <div class="col-sm-6 col-xs-12">
+                    <h3>Contact Us</h3>
+                    <p>Ask Us a Question</p>
+                </div><!--col-sm-6-->
+            </div><!--col-sm-6 big-->
+
+        </div><!--row-->
+    </div><!--container-->
+</div>
+
+<!--===========================================================================-->
+
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-xs-12">
+                <ul>
+                    <li><a href=""> Terms & Condition </a></li>
+                    <li><a href=""> Disclaimer </a></li>
+                    <li><a href=""> Privacy & Policy </a></li>
+                    <li><a href=""> About Us </a></li>
+                </ul>
+            </div><!--col-sm-12-->
+
+            <div class="col-sm-12 col-xs-12">
+                <div class="icons">
+                    <img src="images/icons.png" alt="">
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<div class="copyright">
+    <p>
+        Copyright © 2020. ILEF DIGITAL SERVICES . All rights reserved.
+
+    </p>
+</div>
+
+
+
+<!--===========================================================================-->
+<script src="js/jquery-1.11.0.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.refineslide.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/script.js"></script>
+
+
+</body>
+</html>
+<!--============================================================================-->
