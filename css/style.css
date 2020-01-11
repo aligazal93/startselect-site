@@ -2053,54 +2053,67 @@ background-color:#28bde8;
 
 .more-option 
 {
-	margin-top: 100px;
+margin-top: 100px;
 }
 .more-option .sidebar 
 {
-	border: 1px solid;
+border:2px solid #253d59;
+width: 100%;
+display: block;
+margin: 0 auto;
+border-radius: 15px;
+    box-shadow: 1px 1px 9px #253d59;
+margin-top: 50px;
 }
 .more-option .sidebar h4
 {
-	background-color:#28bde8;
-	margin: 0px;
-	padding: 15px;
-	color: #fff;
-	font-weight: bold;
-	text-align: center;
+background-color:#253d59;
+margin: 0px;
+padding:20px;
+border-top-right-radius:10px;
+border-top-left-radius:10px;
+color: #fff;
+font-weight: bold;
+text-align: center;
 }
 .more-option .sidebar ul 
 {
-	list-style: none;
-	padding: 0px;
-	margin: 0px;
+list-style: none;
+padding: 0px;
+margin: 0px;
 }
 .more-option .sidebar ul li 
 {
-	padding:10px;
-	transition: all .6s ease-in-out;
-	border-bottom: 1px solid;
-	margin-bottom: 0px;
+padding:14px;
+transition: all .6s ease-in-out;
+border-bottom: 1px solid #253d59;
+margin-bottom: 0px;
+}
+.more-option .sidebar ul li:last-child
+{
+border-bottom-right-radius:10px;
+border-bottom-left-radius:10px;
 }
 .more-option .sidebar ul li:hover
 {
-	background-color:#253d59;
+background-color:#253d59;
 }
 .more-option .sidebar ul li a 
 {
-	text-decoration:none;
-	color: #28bde8;
+text-decoration:none;
+color: #28bde8;
 }
 .more-option .sidebar ul li a i 
 {
-	margin-right: 8px;
+margin-right: 8px;
 }
 .more-option .sidebar ul .active 
 {
-	background-color:#253d59;
+background-color:#28bde8;
 }
 .more-option .sidebar ul .active a
 {
-	color: #fff;
+color: #fff;
 }
 
 
@@ -2117,23 +2130,23 @@ text-align:center;
 }
 .more-option .edit-info .the-pic 
 {
-	border: 5px solid #253d59;
-	width:100px;
-	border-radius:150px;
-	height:100px;
-	display: block;
-	margin: 0 auto;
-	margin-bottom: 20px;
+border: 5px solid #253d59;
+width:100px;
+border-radius:150px;
+height:100px;
+display: block;
+margin: 0 auto;
+margin-bottom: 20px;
 }
 .more-option .edit-info .the-pic img 
 {
-	width:100%;
+width:100%;
 }
 .more-option .edit-info form 
 {
-	width:70%;
-	display: block;
-	margin: 0 auto;
+width:70%;
+display: block;
+margin: 0 auto;
 
 }
 
@@ -2175,40 +2188,40 @@ padding:15px;
 }
 .more-option .history h4 
 {
-	text-align: center;
-	font-weight: bolder;
-	margin-bottom: 20px;
-	font-size: 18px;
+text-align: center;
+font-weight: bolder;
+margin-bottom: 20px;
+font-size: 18px;
 }
 .more-option .history table
 
 {
-	font-weight: bolder;
-	text-align: center;
+font-weight: bolder;
+text-align: center;
 }
 .more-option .history table tr td
 {
-	padding: 12px;
+padding: 12px;
 }
 
 .more-option .history tr:nth-child(even) {
-  background-color: #f5f5f5;
+background-color: #f5f5f5;
 }
 .more-option .serial-number 
 {
-	text-align: center;
-	padding: 12px;
+text-align: center;
+padding: 12px;
 }
 .more-option .serial-number h4 
 {
-	font-weight: bolder;
+font-weight: bolder;
 }
 .more-option .serial-number form 
 {
-	width:60%;
-	display: block;
-	margin: 0 auto;
-	margin-top: 15px;
+width:60%;
+display: block;
+margin: 0 auto;
+margin-top: 15px;
 }
 .more-option .serial-number form input 
 {
@@ -2226,17 +2239,17 @@ border:0;
 }
 .more-option .serial-number form span 
 {
-	float: left;
-	font-size: 12px;
-	font-weight: bolder;
-	display: block;
-	width:100%;
-	text-align: left;
-	padding-left: 15px;
+float: left;
+font-size: 12px;
+font-weight: bolder;
+display: block;
+width:100%;
+text-align: left;
+padding-left: 15px;
 }
 
 .more-option .serial-number form button
- {
+{
 width:125px;
 background-color:#5e9df0;
 margin: 0 auto;
