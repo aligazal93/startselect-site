@@ -1975,3 +1975,276 @@ width:90%;
 line-height: 25px;
 display: block;
 }
+
+
+.header .before-login ul 
+{
+padding: 0px;
+margin: 0px;
+margin-top: 20px;
+list-style: none;
+}
+.header .before-login ul li 
+{
+display: inline-block;
+margin-left: 15px;
+}
+.header .before-login ul li a 
+{
+color: #fff;
+text-decoration: none;
+}
+.header .before-login ul li i 
+{
+margin-right: 5px;
+color: #28bde8;
+}
+.header .main-menu ul li i 
+{
+margin-left: 5px;
+}
+
+
+
+
+
+
+.menu-item-has-children
+{
+position:relative;
+display:inline-block;
+}
+.main-menu .sub-menu 
+{
+width: 172px;
+padding: 0px;
+display: none;
+background-color: #253d59;
+position: absolute;
+left: -35px;
+top: 22px;
+}
+.main-menu .sub-menu li 
+{
+margin-left: 0px;
+padding: 8px!important;
+margin-right:0px!important;
+width:100%;
+}
+
+.menu-item-has-children:hover .sub-menu 
+{
+display:inline-block;
+}
+.main-menu .sub-menu a 
+{
+color:#fff;
+padding:10px!important;
+text-decoration: none;
+display: block;
+}
+
+.main-menu .sub-menu a:hover
+{
+background-color:#28bde8;
+}
+
+
+
+.more-option 
+{
+	margin-top: 100px;
+}
+.more-option .sidebar 
+{
+	border: 1px solid;
+}
+.more-option .sidebar h4
+{
+	background-color:#28bde8;
+	margin: 0px;
+	padding: 15px;
+	color: #fff;
+	font-weight: bold;
+	text-align: center;
+}
+.more-option .sidebar ul 
+{
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+}
+.more-option .sidebar ul li 
+{
+	padding:10px;
+	transition: all .6s ease-in-out;
+	border-bottom: 1px solid;
+	margin-bottom: 0px;
+}
+.more-option .sidebar ul li:hover
+{
+	background-color:#253d59;
+}
+.more-option .sidebar ul li a 
+{
+	text-decoration:none;
+	color: #28bde8;
+}
+.more-option .sidebar ul li a i 
+{
+	margin-right: 8px;
+}
+.more-option .sidebar ul .active 
+{
+	background-color:#253d59;
+}
+.more-option .sidebar ul .active a
+{
+	color: #fff;
+}
+
+
+
+
+
+
+
+.more-option .edit-info
+{
+position:relative;
+margin-top:0px;
+text-align:center;
+}
+.more-option .edit-info .the-pic 
+{
+	border: 5px solid #253d59;
+	width:100px;
+	border-radius:150px;
+	height:100px;
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+.more-option .edit-info .the-pic img 
+{
+	width:100%;
+}
+.more-option .edit-info form 
+{
+	width:70%;
+	display: block;
+	margin: 0 auto;
+
+}
+
+.more-option .edit-info form label
+{
+display:block;
+text-align: left;
+color:#253d59;
+margin-bottom: 10px;
+font-weight: bold;
+}
+.more-option .edit-info form input
+{
+display:block;
+width:100%;
+margin:0 auto;
+margin-bottom:10px;
+border-radius:10px;
+font-weight: bold;
+text-align:left;
+outline:none;
+padding:10px;
+background-color:#ebebeb;
+border:0;
+}
+
+.more-option .edit-info form button
+{
+width:150px;
+background-color:#5e9df0;
+margin: 0 auto;
+display: block;
+color:#fff;
+outline:none;
+border:0;
+margin-top: 15px;
+border-radius:10px;
+padding:15px;
+}
+.more-option .history h4 
+{
+	text-align: center;
+	font-weight: bolder;
+	margin-bottom: 20px;
+	font-size: 18px;
+}
+.more-option .history table
+
+{
+	font-weight: bolder;
+	text-align: center;
+}
+.more-option .history table tr td
+{
+	padding: 12px;
+}
+
+.more-option .history tr:nth-child(even) {
+  background-color: #f5f5f5;
+}
+.more-option .serial-number 
+{
+	text-align: center;
+	padding: 12px;
+}
+.more-option .serial-number h4 
+{
+	font-weight: bolder;
+}
+.more-option .serial-number form 
+{
+	width:60%;
+	display: block;
+	margin: 0 auto;
+	margin-top: 15px;
+}
+.more-option .serial-number form input 
+{
+display:block;
+width:100%;
+margin:0 auto;
+margin-bottom:10px;
+border-radius:10px;
+font-weight: bold;
+text-align:left;
+outline:none;
+padding:10px;
+background-color:#ebebeb;
+border:0;
+}
+.more-option .serial-number form span 
+{
+	float: left;
+	font-size: 12px;
+	font-weight: bolder;
+	display: block;
+	width:100%;
+	text-align: left;
+	padding-left: 15px;
+}
+
+.more-option .serial-number form button
+ {
+width:125px;
+background-color:#5e9df0;
+margin: 0 auto;
+display: block;
+color:#fff;
+outline:none;
+border:0;
+margin-top:35px;
+border-radius:8px;
+padding:10px;
+}
